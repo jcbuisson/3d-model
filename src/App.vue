@@ -6,8 +6,7 @@
    </select>
 
    <vue3dLoader
-      width="600"
-      height="600"
+      height="500"
       :scale="selected.scale"
       :filePath="selected.filePath"
       backgroundColor="#eee"
@@ -34,6 +33,7 @@ const models = [
    { filePath: "https://ftp.jcbuisson.dev/3d-models/muscular-insertions.fbx", name: "Insertions musculaires (FBX)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
    { filePath: "https://ftp.jcbuisson.dev/3d-models/splanchnology.fbx", name: "Splanchnologie (FBX)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
    { filePath: "https://ftp.jcbuisson.dev/3d-models/angiology.fbx", name: "Angiologie (FBX)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
+   { filePath: "https://ftp.jcbuisson.dev/3d-models/myology.fbx", name: "Myologie (FBX)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
 ]
 
 const selected = ref(models[0])
