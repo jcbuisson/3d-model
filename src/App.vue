@@ -32,7 +32,7 @@
 import { ref } from 'vue'
 
 const models = [
-   { filePath: "https://ftp.jcbuisson.dev/3d-models/van.glb", name: "Volkswagen Van (GLB)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
+   { filePath: "https://ftp.jcbuisson.dev/3d-models/duolingo.gltf", name: "Duolingo (GLTF)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
    { filePath: "https://ftp.jcbuisson.dev/3d-models/arthology.fbx", name: "Arthologie (FBX)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
    { filePath: "https://ftp.jcbuisson.dev/3d-models/muscular-insertions.fbx", name: "Insertions musculaires (FBX)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
    { filePath: "https://ftp.jcbuisson.dev/3d-models/splanchnology.fbx", name: "Splanchnologie (FBX)", scale: {x: 0.8, y: 0.8, z: 0.8 }},
