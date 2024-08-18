@@ -1,6 +1,6 @@
 <template>
    
-   <!-- choix du modèle -->
+   <!-- 3d-model choice -->
    <select v-model="selected">
       <template v-for="model in models">
          <option :value="model">{{ model.name }}</option>
